@@ -166,6 +166,10 @@ class ASTRuleTests: XCTestCase {
         }
     }
 
+    func testCollectionShorthandSyntaxRule() {
+        verifyRule(CollectionShorthandSyntaxRule.description, commentDoesntViolate: false)
+    }
+
     func testTypeNamesVerifyRule() {
         verifyRule(TypeNameRule.description)
     }

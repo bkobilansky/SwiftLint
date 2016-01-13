@@ -21,6 +21,7 @@ public struct RuleList {
 
 public let masterRuleList = RuleList( rules: ClosingBraceRule.self,
                                       ColonRule.self,
+                                      CollectionShorthandSyntaxRule.self,
                                       CommaRule.self,
                                       ConditionalBindingCascadeRule.self,
                                       ControlStatementRule.self,
